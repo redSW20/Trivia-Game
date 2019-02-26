@@ -1,29 +1,46 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Crystal Game</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-
+    <title>Basic Car Repairs and Maintenence!</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">    
+    <link rel="stylesheet" type="text/css" media="screen" href="./assets/css/style.css" />
 </head>
 <body>
-        
-
-
-
-
-
-       
-        <script
-        src="https://code.jquery.com/jquery-3.3.1.js"
-        integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
-        crossorigin="anonymous"></script>
-        <script src="assets/javascript/game.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-
+    <div class="container">  
+        <nav class="navbar navbar-light mb-5 rounded shadow-sm">
+            <a class="navbar-brand text-white font-weight-bold" href="index.html">Basic Car Repairs and Maintenence</a>
+        </nav>
+        <div class="jumbotron shadow quiz-intro-page" id="quiz-intro-page">
+            <h1 class="display-4">Welcome!</h1>
+            <p class="lead">This is a simple quiz to test your knowledge on basic car mechanics and terms.</p>
+            <hr class="my-4">
+            <p>You will be asked a series of questions on the following pages and given 20 seconds to answer each. You will be notified
+                after each question whether you answered correctly or incorrectly, and then given a total at the end with suggested
+                next steps.</p>
+            <p>To start the quiz press the “Start Quiz” button.</p>
+            <a class="btn btn-primary btn-lg" id="start-button" href="#" role="button">Start Quiz</a>
+        </div>
+        <div class="jumbotron shadow quiz-question-page" id="quiz-question-page">
+            <div class="timer">
+                <div class="font-weight-bold" id="time-remaining"></div>
+                <progress value="0" max="20" class ="progress mt-2" id="progressBar"></progress>
+            </div>
+            <p class="lead" id="question">This is a simple quiz to test your knowledge on basic car mechanics.</p>
+            <hr class="my-4">
+            <div class="alerts text-center">
+                <h2 id="game-alert"></h2>
+                <p id="correct-answer-text"></p>
+                <div id="answer-image"></div>
+            </div>
+            <div class="list-group text-center" id="answer-list"></div>
+        </div>
+        <div id="quiz-game-over-page"></div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.js"integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script> 
+    <script src="./assets/javascript/trivia.js"></script>
 </body>
-</html>
+</html
