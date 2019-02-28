@@ -1,7 +1,7 @@
 .container {
     margin: 50px auto 50px auto;
     max-width: 900px;
-    background: rgba(224, 5, 5, 0.822);
+    background: rgba(224, 5, 5, 0.8);
     padding:12px;
     box-shadow: 0px 1px 2px #6b0101;
     border-radius: 10px;
@@ -11,4 +11,6 @@ head{
     text-align: center;
 }
 
-  
+body{
+    background-color: rgb(163, 125, 125);
+}

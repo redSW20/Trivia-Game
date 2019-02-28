@@ -19,7 +19,7 @@ $(document).ready(function() {
         answer: 2
     }
     ,{
-        question: 'How do you change a tire?',
+        question: 'How do you put on a spare tire?',
         answers: ['Raise car with jack, Loosen and remove lugnuts, Take wheel off, Put spare on, Replace and retighten lugnuts, Lower car off jack', 
                   'Take to mechanic', 
                   'Use a knife to take the tire off the rim', 
@@ -30,7 +30,7 @@ $(document).ready(function() {
         answers: ['Shut engine off, Drain oil from oil pan, Remove and replace oil filter, Replace drain plug with new washer, Fill oil to specification', 
                   'Leave car running so it stays warm, drain oil from oil filter, replace oil', 
                   'Simply pour the oil in, nothing needs to be changed, only filled', 
-                  'Call a mechanic'],
+                  'Take to mechanic'],
         answer: 0
     },{
         question: 'What charges the car battery while the engine is running?',
@@ -48,39 +48,39 @@ $(document).ready(function() {
         answer: 2
     },{
         question: 'What is a supercharger?',
-        answers: ['Exhaust gas driven air pump to force air into the engine', 
+        answers: ['Exhaust gas driven turbine to force air into the engine', 
                   'A super strong and powerful battery charger', 
                   'A kryptonite based computer in your car', 
                   'Belt driven air pump to force air into the engine'],
         answer: 3
     },{
-        question: '',
-        answers: ['', 
-                  '', 
-                  '', 
-                  ''],
-        answer: 3
+        question: 'Where do you start to change a tailight bulb after you disconnect the battery?',
+        answers: ['In the backseat', 
+                  'Behind the paneling in the trunk', 
+                  'Just pull the tailight out to change it', 
+                  'Bash it with a hammer to get to the bulb, Cover with red tape'],
+        answer: 1
     },{
-        question: '?',
-        answers: ['', 
-                  '', 
-                  '', 
-                  ''],
+        question: 'How do you check a overheating issue because the temperature gauge went up?',
+        answers: ['Use a funnel and burp the coolant system while the motor is not running', 
+                  'open the radiator cap right after you let the engine heat up, it will let all of the excess pressure escape, pour in more coolant after', 
+                  'Use a radiator funnel to burp the system while the car is running', 
+                  'Hit the radiator with a hammer until there is a hole in it, Airflow is good'],
         answer: 2
     },{
-        question: '?',
-        answers: ['', 
-                  '', 
-                  '', 
-                  ''],
+        question: 'What holds on aesethetic pieces of trim and body panels?',
+        answers: ['Nuts and Bolts', 
+                  'Some glue', 
+                  'Mostly plastic clips and occasionally very small screws', 
+                  'Ducktape'],
         answer: 2
     }
     ,{
         question: 'What is a turbocharger?',
-        answers: ['', 
-                  '', 
-                  '', 
-                  ''],
+        answers: ['A motorized snail', 
+                  'Exhaust gas driven turbine to force air into the engine', 
+                  'Belt driven air pump to force air into the engine', 
+                  'A magical part that you bolt on and you go fast'],
         answer: 1
     }];
 
