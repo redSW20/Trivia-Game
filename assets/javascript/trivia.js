@@ -153,17 +153,17 @@ $(document).ready(function() {
         if (userGuess === correctAnswerData && answered !== false) {
             correctAnswer++;
             $('#game-alert').html('Excellent work!');
-            $('#answer-image').html('<img src="./assets/images/check-mark.png" class="answer-image">');
+            $('#answer-image').html('<img src="./assets/images/correct.gif" class="answer-image">');
         } else if (userGuess !== correctAnswerData && answered !== false) {
             incorrectAnswer++;
             $('#game-alert').html('Going to need to study harder next time on that one');
-            $('#answer-image').html('<img src="./assets/images/x-mark.png" class="answer-image">');
+            $('#answer-image').html('<img src="./assets/images/incorrect.gif" class="answer-image">');
             $('#correct-answer-text').html('The correct answer was: ' + correctAnswerText);
         } else {
             unanswered++;
             answered = true;
             $('#game-alert').html('Times up!');
-            $('#answer-image').html('<img src="./assets/images/x-mark.png" class="answer-image">');
+            $('#answer-image').html('<img src="./assets/images/incorrect.gif" class="answer-image">');
             $('#correct-answer-text').html('The correct answer was: ' + correctAnswerText);   
         }
 
@@ -171,7 +171,7 @@ $(document).ready(function() {
             setTimeout(gameOver, 3000)
         } else {
             currentQuestion++;
-            setTimeout(newQuestion, 3000);
+            setTimeout(newQuestion, 4000);
         }	
     }
     //End of game function to display totals and restart button
