@@ -27,34 +27,34 @@ $(document).ready(function() {
         answer: 3
     },{
         question: 'How do you change the oil in your car?',
-        answers: ['', 
-                  '', 
-                  '', 
-                  ''],
+        answers: ['Shut engine off, Drain oil from oil pan, Remove and replace oil filter, Replace drain plug with new washer, Fill oil to specification', 
+                  'Leave car running so it stays warm, drain oil from oil filter, replace oil', 
+                  'Simply pour the oil in, nothing needs to be changed, only filled', 
+                  'Call a mechanic'],
         answer: 0
     },{
-        question: '?',
-        answers: ['', 
-                  '', 
-                  '', 
-                  ''],
+        question: 'What charges the car battery while the engine is running?',
+        answers: ['Battery recharger', 
+                  'Little hamsters on wheels', 
+                  'Alternator', 
+                  'Generators in the axle shafts'],
         answer: 2
     },{
-        question: '?',
-        answers: ['', 
-                  '', 
-                  '', 
-                  ''],
+        question: 'In the tire size, 275/40/R17, what number shows the tire width in millimeters?',
+        answers: ['40', 
+                  'R17', 
+                  '275', 
+                  '275/40'],
         answer: 2
     },{
-        question: '?',
-        answers: ['', 
-                  '', 
-                  '', 
-                  ''],
+        question: 'What is a supercharger?',
+        answers: ['Exhaust gas driven air pump to force air into the engine', 
+                  'A super strong and powerful battery charger', 
+                  'A kryptonite based computer in your car', 
+                  'Belt driven air pump to force air into the engine'],
         answer: 3
     },{
-        question: '?',
+        question: '',
         answers: ['', 
                   '', 
                   '', 
@@ -76,7 +76,7 @@ $(document).ready(function() {
         answer: 2
     }
     ,{
-        question: '?',
+        question: 'What is a turbocharger?',
         answers: ['', 
                   '', 
                   '', 
