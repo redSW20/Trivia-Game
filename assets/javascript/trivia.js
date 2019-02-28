@@ -109,7 +109,7 @@ $(document).ready(function() {
             let possibleAnswers = $('<button>');
             possibleAnswers.text(questions[currentQuestion].answers[i]);
             possibleAnswers.attr({'data-ninja':i});
-            possibleAnswers.addClass('answer-button list-group-item list-group-item-action list-group-item-primary font-weight-bold text-white');
+            possibleAnswers.addClass('answer-button list-group-item list-group-item-action list-group-item-primary font-weight-bold text-black');
             $('#answer-list').append(possibleAnswers);
         }
 
